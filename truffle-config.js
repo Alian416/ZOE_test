@@ -17,7 +17,7 @@ var providerSokol = new HDWalletProvider(mnemonic, sokolUrl);
 console.log("Public key = "+providerSokol.address);
 
 module.exports = {
-   plugins: ["truffle-source-verify"],
+   plugins: ["truffle-verify-alain"],
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
   networks: {
