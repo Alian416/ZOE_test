@@ -21,7 +21,11 @@ coverageEnv
 .lock-wscript
 
 # Dependency directory
+/node_modules
+./node_modules
 node_modules
+.openzeppelin
+./.openzeppelin
 
 # Debug log from npm
 npm-debug.log
